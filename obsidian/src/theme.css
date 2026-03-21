@@ -1,0 +1,149 @@
+.theme-light,
+.theme-dark {
+  /* Color tokens */
+  --color-black: var(--color-gray-900);
+  --color-white: var(--color-gray-0);
+  
+  --color-gray-0: #f7f7f9;
+  --color-gray-50: #e1e1e6;
+  --color-gray-200: #e6e6e6;
+  --color-gray-300: #b9babb;
+  --color-gray-850: #0b1525;
+  --color-gray-900: #04080f;
+  
+  --color-green-base: #224102;
+  --color-green-transparent: hsla(90, 94%, 13%, 0.4);
+  --color-green-transparent-focused: hsla(90, 94%, 18%, 0.6);
+  --color-green-text: hsl(90, 94%, 56%);
+  --color-green-bright: hsl(90, 94%, 64%);
+  --color-orange-200: #ffd49b;
+  --color-orange-400: #ffb14a;
+  --color-orange-500: #ffa630;
+  --color-orange-600: #d68822;
+  --color-blue-base: #222e50;
+  --color-purple-base: #9f2042;
+
+  --background-primary-alt: var(--background-secondary);
+
+  --titlebar-background-focused: var(--background-secondary);
+  --background-modifier-form-field: var(--background-secondary);
+  --background-modifier-form-field-hover: var(--color-blue-base);
+  --background-modifier-border-focus: var(--color-orange-400);	
+  --background-modifier-border-hover: var(--color-orange-400);
+  --dropdown-background: var(--background-modifier-form-field);
+  --dropdown-background-hover: var(--background-modifier-form-field-hover);
+  --menu-border-color: inherit;
+
+  --tag-color: var(--color-green-text);
+  --tag-background: var(--color-green-transparent);
+
+  --tag-color-hover: var(--color-green-bright);
+  --tag-background-hover: var(--color-green-transparent-focused);
+}
+
+.theme-light {
+  --background-primary: var(--color-gray-0);
+  --background-secondary: var(--color-gray-50);
+  --background-modifier-border: var(--color-gray-200);
+  
+  --text-normal: var(--color-gray-900);
+  --text-muted: var(--color-gray-300);
+  --text-faint: var(--color-gray-300);
+  
+  --h1-color: var(--color-green-base);
+  --h2-color: var(--color-blue-base);
+  --h3-color: var(--color-blue-base);
+  --h4-color: var(--color-blue-base);
+  --h5-color: var(--color-blue-base);
+  --h6-color: var(--color-blue-base);
+  
+  --link-color: var(--color-blue-base);
+  --link-color-hover: var(--color-green-base);
+  --link-external-color: var(--color-blue-base);
+  --link-external-color-hover: var(--color-green-base);
+  --link-unresolved-color: var(--color-purple-base);
+  
+  --text-accent: var(--color-green-base);
+  --text-accent-hover: var(--color-blue-base);
+  --interactive-accent: var(--color-green-base);
+  --interactive-accent-hover: var(--color-blue-base);
+  
+  --code-normal: var(--color-purple-base);
+  
+  --text-highlight-bg: rgba(34, 65, 2, 0.2);
+  --text-selection: rgba(255, 166, 48, 0.3);
+}
+
+.theme-dark {
+  --background-primary: var(--color-gray-900);
+  --background-secondary: var(--color-gray-850);
+  --background-modifier-border: var(--color-gray-850);
+  
+  --text-normal: var(--color-gray-0);
+  --text-muted: var(--color-gray-300);
+  --text-faint: var(--color-gray-300);
+  
+  --h1-color: var(--color-orange-500);
+  --h2-color: var(--color-gray-0);
+  --h3-color: var(--color-gray-0);
+  --h4-color: var(--color-gray-0);
+  --h5-color: var(--color-gray-0);
+  --h6-color: var(--color-gray-0);
+  
+  --link-color: var(--color-gray-0);
+  --link-color-hover: var(--color-gray-0);
+  --link-external-color: var(--color-gray-0);
+  --link-external-color-hover: var(--color-orange-500);
+  --link-unresolved-color: var(--color-orange-400);
+  
+  --text-accent: var(--color-orange-500);
+  --text-accent-hover: var(--color-orange-400);
+  --interactive-accent: var(--color-orange-500);
+  --interactive-accent-hover: var(--color-orange-400);
+  
+  --code-normal: var(--color-orange-500);
+  
+  --text-highlight-bg: rgba(255, 166, 48, 0.2);
+  --text-selection: rgba(255, 166, 48, 0.3);
+}
+
+/* Typography */
+body {
+  --font-text-size: 16px;
+  --line-height-normal: 1.5;
+  font-weight: 300;
+}
+
+/* Link decoration to match your orange underline style */
+.cm-s-obsidian span.cm-link,
+.markdown-preview-view a {
+  text-decoration-color: var(--color-orange-500);
+}
+
+.markdown-preview-view a:hover {
+  text-decoration-thickness: 0.125em;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-green-base);
+}
+
+.theme-dark ::-webkit-scrollbar-thumb {
+  background-color: var(--color-orange-500);
+}
+
+
+input, select {
+	
+}
+
+
+.cm-s-obsidian .cm-inline-code.mb-input-inline, .markdown-rendered code.mb-input {
+	font-family: inherit;
+}
+
+
+.checkbox-container {
+	background-color: var(--color-blue-base);
+}
