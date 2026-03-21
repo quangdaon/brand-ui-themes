@@ -1,0 +1,20 @@
+{
+  "name": "quangdao-brand-theme",
+  "displayName": "Quangdao's Brand",
+  "description": "A dark theme built from quangdao.com brand colors.",
+  "version": "1.0.0",
+  "publisher": "quangdao",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Quangdao's Brand",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quangdao-brand-color-theme.json"
+      }
+    ]
+  }
+}
