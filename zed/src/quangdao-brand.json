@@ -198,7 +198,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#FFA630ff",
+            "color": "#5da628ff",
             "font_style": null,
             "font_weight": null
           },
@@ -213,7 +213,7 @@
             "font_weight": null
           },
           "constant": {
-            "color": "#FFA630ff",
+            "color": "#5da628ff",
             "font_style": null,
             "font_weight": null
           },
@@ -238,7 +238,7 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#46a8a0ff",
+            "color": "#FFA630ff",
             "font_style": null,
             "font_weight": null
           },
@@ -278,7 +278,7 @@
             "font_weight": null
           },
           "number": {
-            "color": "#FFA630ff",
+            "color": "#5da628ff",
             "font_style": null,
             "font_weight": null
           },
@@ -358,17 +358,17 @@
             "font_weight": null
           },
           "string.regex": {
-            "color": "#FFA630ff",
+            "color": "#5da628ff",
             "font_style": null,
             "font_weight": null
           },
           "string.special": {
-            "color": "#FFA630ff",
+            "color": "#5da628ff",
             "font_style": null,
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "#FFA630ff",
+            "color": "#5da628ff",
             "font_style": null,
             "font_weight": null
           },
@@ -388,7 +388,7 @@
             "font_weight": 400
           },
           "type": {
-            "color": "#46a8a0ff",
+            "color": "#FFA630ff",
             "font_style": null,
             "font_weight": null
           },
@@ -398,7 +398,7 @@
             "font_weight": null
           },
           "variable.special": {
-            "color": "#FFA630ff",
+            "color": "#5da628ff",
             "font_style": null,
             "font_weight": null
           },
